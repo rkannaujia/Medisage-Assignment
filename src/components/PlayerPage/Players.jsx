@@ -13,6 +13,7 @@ const Players = (props) => {
   
   
   const currTeam = teamPlayer[team];
+  
   return (
     <div className="players-page">
   
@@ -20,7 +21,7 @@ const Players = (props) => {
       <ul className="player-container">
         {currTeam.player.map((data,index) => {
           if (index < 11) {
-            return (
+            return <>
               <Card
                 key={data.id}
                 background={currTeam.teamColor}
@@ -31,7 +32,7 @@ const Players = (props) => {
                 runs={data.run}
                 wickets={data.wickets}
               />
-            );
+              </>
           }
         })}
       </ul>
