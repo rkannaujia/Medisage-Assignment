@@ -1,0 +1,35 @@
+.navbar{
+    position: sticky;
+    
+    padding: 0.5% 3%;
+    background: linear-gradient(
+      92.04deg,
+      #18184a 24.18%,
+      #19398a 50.95%,
+      #18184a 110.32%
+    );
+    box-shadow: 0 4px 8px 0 hsl(0deg 0% 7% / 50%);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+ 
+ .dropdown-menu{
+    background: white;
+   
+ }
+ .nav-link{
+    color: white;
+    font-size: large;
+ }
+ .active{
+    padding: 5px 10px;
+    background-color: white;
+    color: #19398a;
+    border-radius: 10px;
+ }
+ .active:hover{
+    padding: 5px 10px;
+    background-color: #19398a;
+    color: white;
+ }

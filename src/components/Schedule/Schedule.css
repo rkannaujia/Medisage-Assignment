@@ -1,0 +1,13 @@
+ .heading {
+    margin: 0px;
+    padding: 20px 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background: #19398a ;
+    background-size: contain;
+  }
+  .schedule {
+    padding: 2% 5%;
+  }
